@@ -13,8 +13,8 @@ def getInput() # Ask the user for an number of floors for the pyramid and return
 end
 
 def setPyramidRight(n)
-  for i in 1..n do
-    for j in 1..i do
+  for i in 1..n do # FOR each line n
+    for j in 1..i do # FOR each drawing spot
       print "#"
     end
     puts

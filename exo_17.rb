@@ -15,7 +15,7 @@ end
 def setPyramid(n) # Build full pyramid with n floors
   for i in 1..n do # FOR each floor n
     nbSpaces = n - i # calculate the number of free spaces to place first on the line n
-    for j in 0..nbSpaces do # FOR each free space of the line n
+    for j in 0..nbSpaces do # FOR each free spot of the line n
         print " "
     end
     nbPoints = 1 + 2 * (i -1) # calculate the number of consecutiv drawings on the line n
