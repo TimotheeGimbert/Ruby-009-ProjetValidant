@@ -22,7 +22,7 @@ def setPyramidRight(n)
 end
 
 # MAIN
-puts "Salut, bienvenue dans ma super pyramide !"
+print "Salut, bienvenue dans ma super pyramide ! "
 nbFloors = getInput() # n is set to the returned value of the getInt() function
 puts "Voici une pyramide à #{nbFloors} étages :"
 setPyramidRight(nbFloors)
