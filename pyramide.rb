@@ -12,7 +12,7 @@ def getInput() # Ask the user for an number of floors for the pyramid and return
   return input
 end
 
-def setPyramidRight(n)
+def setPyramidLeft(n)
   for i in 1..n do
     for j in 1..(n-i) do
       print " "
@@ -28,4 +28,4 @@ end
 print "Salut, bienvenue dans ma super pyramide ! "
 nbFloors = getInput() # n is set to the returned value of the getInt() function
 puts "Voici une pyramide à #{nbFloors} étages :"
-setPyramidRight(nbFloors)
+setPyramidLeft(nbFloors)
