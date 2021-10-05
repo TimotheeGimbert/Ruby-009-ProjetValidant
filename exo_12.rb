@@ -6,8 +6,8 @@ currentAge = currentYear - birthYear
 age = -1
 for i in birthYear..currentYear do
     age += 1
-    if (birthYear - i) === age 
-        puts "Il y a #{age} ans vous aviez la moitié de l'age que vous avez aujourd'hui."
+    if currentYear - i === currentAge / 2
+        puts "Il y a #{currentYear - i} ans vous aviez la moitié de l'age que vous avez aujourd'hui."
     else
         puts "Il y a #{currentAge - age} ans, vous aviez #{age} ans"
 
